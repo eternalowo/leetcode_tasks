@@ -1,7 +1,7 @@
 class Solution {
     // https://leetcode.com/problems/maximum-average-subarray-i/
     // Method: Sliding Window
-    // Complexity: O(n), n - nums size
+    // Complexity: O(n + k), n - nums size
 public:
     double findMaxAverage(const std::vector<int>& nums, int k) {
 
